@@ -1,10 +1,20 @@
-import React from "react";
-import { css } from "@emotion/css";
-const style = css`
-  color: red;
-`;
+import React, { createContext, useEffect } from "react";
+import Markets from "./layout/markets";
+import "react-loading-skeleton/dist/skeleton.css";
+export const WebsocketContext = createContext();
 const App = () => {
-  return <div className={style}>hi</div>;
+  const websocket = new WebSocket("wss://ws.bitpin.org");
+  useEffect(() => {
+    websocket.onopen = () => {
+      websocket.send(JSON.stringify({ method: "sub_to_price_info" }));
+    };
+  }, [websocket]);
+
+  return (
+    <WebsocketContext.Provider value={websocket}>
+      <Markets />
+    </WebsocketContext.Provider>
+  );
 };
 
 export default App;

@@ -1,0 +1,182 @@
+@font-face {
+    font-family: IranYekan;
+    src: url("./assets/fonts/bold/iranyekanwebboldfanum.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/bold/iranyekanwebboldfanum.woff")
+        format("woff"),
+      url("./assets/fonts/bold/iranyekanwebboldfanum.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: IranYekan;
+    src: url("./assets/fonts/regular/iranyekanwebregularfanum.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/regular/iranyekanwebregularfanum.woff")
+        format("woff"),
+      url("./assets/fonts/regular/iranyekanwebregularfanum.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+input,
+button,
+video {
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  border: 0;
+  font-size: 14px;
+  vertical-align: baseline;
+  background-color: transparent;
+}
+input[type="checkbox"]:checked {
+  filter: hue-rotate(293deg) brightness(1.2);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+* {
+  direction: rtl;
+  font-family: IranYekan !important ;
+}
+body{
+  padding: 12px;
+}
